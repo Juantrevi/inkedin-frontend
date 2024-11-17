@@ -13,17 +13,17 @@ function BaseFooter () {
                   <Col md={3} className="mb-4 mb-md-0">
                       <h5 className="fw-bold mb-3">Quick Links</h5>
                       <Nav className="flex-column">
-                          <Nav.Link href="#" className="text-white p-0 mb-2">Home</Nav.Link>
-                          <Nav.Link href="#" className="text-white p-0 mb-2">Find Artists</Nav.Link>
-                          <Nav.Link href="#" className="text-white p-0 mb-2">How It Works</Nav.Link>
+                          <Nav.Link href="/" className="text-white p-0 mb-2">Home</Nav.Link>
+                          <Nav.Link href="/find-artist" className="text-white p-0 mb-2">Find Artists</Nav.Link>
+                          <Nav.Link href="/how-it-works" className="text-white p-0 mb-2">How It Works</Nav.Link>
                       </Nav>
                   </Col>
                   <Col md={3} className="mb-4 mb-md-0">
                       <h5 className="fw-bold mb-3">Support</h5>
                       <Nav className="flex-column">
-                          <Nav.Link href="#" className="text-white p-0 mb-2">FAQ</Nav.Link>
-                          <Nav.Link href="#" className="text-white p-0 mb-2">Contact Us</Nav.Link>
-                          <Nav.Link href="#" className="text-white p-0 mb-2">Privacy Policy</Nav.Link>
+                          <Nav.Link href="/faq" className="text-white p-0 mb-2">FAQ</Nav.Link>
+                          <Nav.Link href="/contact-us" className="text-white p-0 mb-2">Contact Us</Nav.Link>
+                          <Nav.Link href="/privacy-policy" className="text-white p-0 mb-2">Privacy Policy</Nav.Link>
                       </Nav>
                   </Col>
                   <Col md={3}>

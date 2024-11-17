@@ -24,13 +24,15 @@ function Index(){
                                         type="email"
                                         placeholder="Enter your email"
                                         value={email}
+
                                         onChange={(e) => setEmail(e.target.value)}
                                         className="me-2"
                                         style={{height: '40px', width: '70%'}}
                                     />
                                     <Button variant="danger"
-                                            style={{backgroundColor: '#ff5100', height: '40px', whiteSpace: 'nowrap'}}>Get
-                                        Started</Button>
+                                            style={{backgroundColor: '#ff5100', height: '40px', whiteSpace: 'nowrap'}}
+                                            href={'/user-home'}
+                                    >Get Started</Button>
                                 </Form>
                             </Col>
                             <Col md={6}>

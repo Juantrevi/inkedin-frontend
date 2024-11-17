@@ -7,6 +7,10 @@ body {
     border-color: #ff5100 !important;
 }
 
+.how-icon{
+    color: #ff5100 !important;
+}
+
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
     background-color: #e64900 !important;
     border-color: #e64900 !important;

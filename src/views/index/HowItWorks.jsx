@@ -6,22 +6,22 @@ import BaseFooter from "../partials/BaseFooter"
 function HowItWorks(){
     const steps = [
         {
-            icon: <Search className="text-primary mb-3" size={48} />,
+            icon: <Search className="how-icon mb-3" size={48} />,
             title: "Find Your Artist",
             description: "Search for tattoo artists based on style, location, or recommendations. Browse portfolios to find the perfect match for your vision."
         },
         {
-            icon: <Calendar2Check className="text-primary mb-3" size={48} />,
+            icon: <Calendar2Check className="how-icon mb-3" size={48} />,
             title: "Book Your Session",
             description: "Choose a convenient time slot from the artist's available schedule. Easily book your appointment with just a few clicks."
         },
         {
-            icon: <Palette className="text-primary mb-3" size={48} />,
+            icon: <Palette className="how-icon mb-3" size={48} />,
             title: "Collaborate on Design",
             description: "Communicate directly with your chosen artist to refine your tattoo design. Share ideas and get professional input to create your perfect tattoo."
         },
         {
-            icon: <CreditCard2Front className="text-primary mb-3" size={48} />,
+            icon: <CreditCard2Front className="how-icon mb-3" size={48} />,
             title: "Secure Payment",
             description: "Pay a deposit to confirm your booking. Rest easy with our secure payment system, ensuring a smooth transaction for both you and the artist."
         }

@@ -11,7 +11,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import './index.css';
 import BookAppointment from "./views/user/BookAppointment.jsx";
 import FindArtist from "./views/index/FindArtist.jsx";
-import HowItWorks from "./views/index/HowItWorks.jsx"; // Import your custom CSS
+import HowItWorks from "./views/index/HowItWorks.jsx";
+import FAQ from "./views/index/FrequentlyAskedQuestions.jsx";
+import ContactUs from "./views/index/ContactUs.jsx";
+import PrivacyPolicy from "./views/index/PrivacyPolicy.jsx"; // Import your custom CSS
 
 function App() {
   return (
@@ -27,6 +30,9 @@ function App() {
         <Route path={'/book-appointment'} element={<BookAppointment />} />
         <Route path={'/find-artist'} element={<FindArtist />} />
         <Route path={'/how-it-works'} element={<HowItWorks />} />
+        <Route path={'/faq'} element={<FAQ />} />
+        <Route path={'/contact-us'} element={<ContactUs />} />
+        <Route path={'/privacy-policy'} element={<PrivacyPolicy />} />
       </Routes>
     </BrowserRouter>
   );
