@@ -24,7 +24,7 @@ function BaseHeader() {
                         <Dropdown align="end" className="ms-3">
                             <Dropdown.Toggle variant="outline-light" id="dropdown-basic" className="d-flex align-items-center">
                                 <img
-                                    src="src/assets/images/avatar-1.jpg"
+                                    src="../../../public/images/avatar-1.jpg"
                                     width="30"
                                     height="30"
                                     className="rounded-circle me-2"

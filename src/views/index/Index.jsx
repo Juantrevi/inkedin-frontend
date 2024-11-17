@@ -36,7 +36,7 @@ function Index(){
                                 </Form>
                             </Col>
                             <Col md={6}>
-                                <img src="/src/assets/images/tattoo_index.jpg" alt="Tattoo artist at work"
+                                <img src="/images/tattoo_index.jpg" alt="Tattoo artist at work"
                                      className="img-fluid rounded shadow"/>
                             </Col>
                         </Row>
