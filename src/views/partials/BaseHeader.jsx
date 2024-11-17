@@ -17,8 +17,8 @@ function BaseHeader() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto align-items-center">
-                        <Nav.Link href="#" className="text-white">Find Artists</Nav.Link>
-                        <Nav.Link href="#" className="text-white">How It Works</Nav.Link>
+                        <Nav.Link href="/find-artist" className="text-white">Find Artists</Nav.Link>
+                        <Nav.Link href="/how-it-works" className="text-white">How It Works</Nav.Link>
                         <Button variant="outline-light" href={'/login'} className="ms-2">Log In</Button>
                         <Button variant="danger" href={'/register'} className="ms-2" style={{backgroundColor: '#ff5100'}}>Sign Up</Button>
                         <Dropdown align="end" className="ms-3">
