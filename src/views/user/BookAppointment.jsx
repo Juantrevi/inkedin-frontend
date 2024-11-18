@@ -15,7 +15,7 @@ function BookAppointment() {
         id: 1,
         name: "Alice Cooper",
         specialties: ["Traditional", "Japanese"],
-        imageUrl: "/src/assets/images/avatar-1.jpg?height=200&width=200"
+        imageUrl: "/images/avatar-1.jpg?height=200&width=200"
     }
 
     // Mock data for appointments

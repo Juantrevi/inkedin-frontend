@@ -6,12 +6,12 @@ import BaseFooter from "../partials/BaseFooter"
 
 // Mock data for artists
 const artists = [
-    { id: 1, name: "Alice Cooper", nickname: "InkMaster", city: "New York", rating: 4.8, specialties: ["Traditional", "Japanese"], imageUrl: "src/assets/images/avatar-1.jpg?height=300&width=300" },
-    { id: 2, name: "Bob Marley", nickname: "ColorWizard", city: "Los Angeles", rating: 4.9, specialties: ["Watercolor", "Geometric"], imageUrl: "src/assets/images/avatar-2.jpg?height=300&width=300" },
-    { id: 3, name: "Charlie Puth", nickname: "NeoTradKing", city: "Chicago", rating: 4.7, specialties: ["Neo-Traditional", "Blackwork"], imageUrl: "src/assets/images/avatar-3.jpg?height=300&width=300" },
-    { id: 4, name: "Diana Ross", nickname: "RealisticQueen", city: "Miami", rating: 4.9, specialties: ["Realism", "Portraits"], imageUrl: "src/assets/images/avatar-1.jpg?height=300&width=300" },
-    { id: 5, name: "Elton John", nickname: "MinimalistMaster", city: "San Francisco", rating: 4.6, specialties: ["Minimalist", "Linework"], imageUrl: "src/assets/images/avatar-2.jpg?height=300&width=300" },
-    { id: 6, name: "Freddie Mercury", nickname: "BoldLiner", city: "Seattle", rating: 4.8, specialties: ["Old School", "American Traditional"], imageUrl: "src/assets/images/avatar-3.jpg?height=300&width=300" },
+    { id: 1, name: "Alice Cooper", nickname: "InkMaster", city: "New York", rating: 4.8, specialties: ["Traditional", "Japanese"], imageUrl: "/images/avatar-1.jpg?height=300&width=300" },
+    { id: 2, name: "Bob Marley", nickname: "ColorWizard", city: "Los Angeles", rating: 4.9, specialties: ["Watercolor", "Geometric"], imageUrl: "/images/avatar-2.jpg?height=300&width=300" },
+    { id: 3, name: "Charlie Puth", nickname: "NeoTradKing", city: "Chicago", rating: 4.7, specialties: ["Neo-Traditional", "Blackwork"], imageUrl: "/images/avatar-3.jpg?height=300&width=300" },
+    { id: 4, name: "Diana Ross", nickname: "RealisticQueen", city: "Miami", rating: 4.9, specialties: ["Realism", "Portraits"], imageUrl: "/images/avatar-1.jpg?height=300&width=300" },
+    { id: 5, name: "Elton John", nickname: "MinimalistMaster", city: "San Francisco", rating: 4.6, specialties: ["Minimalist", "Linework"], imageUrl: "/images/avatar-2.jpg?height=300&width=300" },
+    { id: 6, name: "Freddie Mercury", nickname: "BoldLiner", city: "Seattle", rating: 4.8, specialties: ["Old School", "American Traditional"], imageUrl: "/images/avatar-3.jpg?height=300&width=300" },
 ]
 
 function UserHome() {
