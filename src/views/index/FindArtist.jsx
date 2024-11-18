@@ -10,12 +10,12 @@ function FindArtist(){
 
     // Mock data for artists
     const artists = [
-        { id: 1, name: "Alice Cooper", location: "New York, NY", rating: 4.8, specialties: ["Traditional", "Japanese"], instagramHandle: "@alicecooper_ink", imageUrl: "src/assets/images/avatar-1.jpg?height=300&width=300" },
-        { id: 2, name: "Bob Marley", location: "Los Angeles, CA", rating: 4.9, specialties: ["Watercolor", "Geometric"], instagramHandle: "@bobmarley_tattoos", imageUrl: "src/assets/images/avatar-2.jpg?height=300&width=300" },
-        { id: 3, name: "Charlie Puth", location: "Chicago, IL", rating: 4.7, specialties: ["Neo-Traditional", "Blackwork"], instagramHandle: "@charlieputh_art", imageUrl: "src/assets/images/avatar-3.jpg?height=300&width=300" },
-        { id: 4, name: "Diana Ross", location: "Miami, FL", rating: 4.9, specialties: ["Realism", "Portraits"], instagramHandle: "@dianaross_realism", imageUrl: "src/assets/images/avatar-1.jpg?height=300&width=300" },
-        { id: 5, name: "Elton John", location: "San Francisco, CA", rating: 4.6, specialties: ["Minimalist", "Linework"], instagramHandle: "@eltonjohn_minimal", imageUrl: "src/assets/images/avatar-2.jpg?height=300&width=300" },
-        { id: 6, name: "Freddie Mercury", location: "Seattle, WA", rating: 4.8, specialties: ["Old School", "American Traditional"], instagramHandle: "@freddiemercury_oldschool", imageUrl: "src/assets/images/avatar-3.jpg?height=300&width=300" },
+        { id: 1, name: "Alice Cooper", location: "New York, NY", rating: 4.8, specialties: ["Traditional", "Japanese"], instagramHandle: "@alicecooper_ink", imageUrl: "/images/avatar-1.jpg?height=300&width=300" },
+        { id: 2, name: "Bob Marley", location: "Los Angeles, CA", rating: 4.9, specialties: ["Watercolor", "Geometric"], instagramHandle: "@bobmarley_tattoos", imageUrl: "/images/avatar-2.jpg?height=300&width=300" },
+        { id: 3, name: "Charlie Puth", location: "Chicago, IL", rating: 4.7, specialties: ["Neo-Traditional", "Blackwork"], instagramHandle: "@charlieputh_art", imageUrl: "/images/avatar-3.jpg?height=300&width=300" },
+        { id: 4, name: "Diana Ross", location: "Miami, FL", rating: 4.9, specialties: ["Realism", "Portraits"], instagramHandle: "@dianaross_realism", imageUrl: "/images/avatar-1.jpg?height=300&width=300" },
+        { id: 5, name: "Elton John", location: "San Francisco, CA", rating: 4.6, specialties: ["Minimalist", "Linework"], instagramHandle: "@eltonjohn_minimal", imageUrl: "/images/avatar-2.jpg?height=300&width=300" },
+        { id: 6, name: "Freddie Mercury", location: "Seattle, WA", rating: 4.8, specialties: ["Old School", "American Traditional"], instagramHandle: "@freddiemercury_oldschool", imageUrl: "/images/avatar-3.jpg?height=300&width=300" },
     ]
 
     const specialties = Array.from(new Set(artists.flatMap(artist => artist.specialties)))

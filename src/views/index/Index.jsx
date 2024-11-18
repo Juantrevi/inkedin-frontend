@@ -99,7 +99,7 @@ function Index(){
                             ].map((style, index) => (
                                 <Col key={index} sm={6} md={3} className="mb-4">
                                     <Card className="h-100 shadow-sm">
-                                        <Card.Img variant="top" src={`src/assets/images/traditional_tattoo.jpg`}
+                                        <Card.Img variant="top" src={`/images/traditional_tattoo.jpg`}
                                                   alt={`${style} tattoo style`}
                                                   style={{height: '200px', objectFit: 'cover'}}/>
                                         <Card.Body>
