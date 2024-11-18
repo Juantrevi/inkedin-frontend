@@ -76,12 +76,12 @@ function ArtistHome() {
     // Mock function to simulate fetching Instagram posts
     const fetchInstagramPosts = () => {
         return [
-            { id: 1, imageUrl: '/src/assets/images/avatar-1.jpg?height=300&width=300', likes: 120, comments: 15 },
-            { id: 2, imageUrl: '/src/assets/images/realism_tattoo.jpg?height=300&width=300', likes: 95, comments: 8 },
-            { id: 3, imageUrl: '/src/assets/images/tattoo_index.jpg?height=300&width=300', likes: 200, comments: 25 },
-            { id: 4, imageUrl: '/src/assets/images/realism_tattoo.jpg?height=300&width=300', likes: 150, comments: 18 },
-            { id: 5, imageUrl: '/src/assets/images/tattoo_index.jpg?height=300&width=300', likes: 180, comments: 22 },
-            { id: 6, imageUrl: '/src/assets/images/realism_tattoo.jpg?height=300&width=300', likes: 110, comments: 12 },
+            { id: 1, imageUrl: '/images/avatar-1.jpg?height=300&width=300', likes: 120, comments: 15 },
+            { id: 2, imageUrl: '/images/realism_tattoo.jpg?height=300&width=300', likes: 95, comments: 8 },
+            { id: 3, imageUrl: '/images/tattoo_index.jpg?height=300&width=300', likes: 200, comments: 25 },
+            { id: 4, imageUrl: '/images/realism_tattoo.jpg?height=300&width=300', likes: 150, comments: 18 },
+            { id: 5, imageUrl: '/images/tattoo_index.jpg?height=300&width=300', likes: 180, comments: 22 },
+            { id: 6, imageUrl: '/images/realism_tattoo.jpg?height=300&width=300', likes: 110, comments: 12 },
         ]
     }
 

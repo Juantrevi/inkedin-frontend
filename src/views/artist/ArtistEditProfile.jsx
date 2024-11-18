@@ -59,7 +59,7 @@ function ArtistEditProfile(){
                                 <Form onSubmit={handleSubmit}>
                                     <div className="text-center mb-4">
                                         <Image
-                                            src='src/assets/images/avatar-1.jpg'
+                                            src='/images/avatar-1.jpg'
                                             roundedCircle
                                             width={150}
                                             height={150}
